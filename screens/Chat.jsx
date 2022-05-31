@@ -29,7 +29,8 @@ const onSignOut = () => {
       )
     });
   }, [navigation])
-
+// fetching messages & chats
+  
   useEffect(() => {
     const collectionRef = collection(database, 'chats');
     const q = query(collectionRef, orderBy('createdAt', 'desc'));
