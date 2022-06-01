@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { View, ActivityIndicator } from 'react-native';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './config/firebase';
-
+// testing
 import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Chat from './screens/Chat';
